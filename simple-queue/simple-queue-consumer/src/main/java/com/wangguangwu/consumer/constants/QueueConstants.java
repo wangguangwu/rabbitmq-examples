@@ -1,4 +1,4 @@
-package com.wangguangwu.producer.constants;
+package com.wangguangwu.consumer.constants;
 
 /**
  * @author wangguangwu
