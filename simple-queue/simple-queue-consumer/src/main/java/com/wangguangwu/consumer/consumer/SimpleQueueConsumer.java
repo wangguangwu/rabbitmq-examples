@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  * @author wangguangwu
  */
 @Service
-public class SimpleQueueListener {
+public class SimpleQueueConsumer {
 
     @RabbitListener(queues = QueueConstants.SIMPLE_QUEUE)
     public void handleMessage(String message) {
