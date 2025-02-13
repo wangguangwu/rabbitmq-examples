@@ -1,5 +1,6 @@
 package com.wangguangwu.directexchangeconsumerinfo.config;
 
+import com.wangguangwu.directexchangeconsumerinfo.constants.DirectExchangeConstants;
 import com.wangguangwu.directexchangeconsumerinfo.constants.QueueConstants;
 import com.wangguangwu.directexchangeconsumerinfo.constants.RoutingKeyConstants;
 import org.springframework.amqp.core.Binding;
@@ -14,6 +15,11 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class InfoLogConfig {
+
+    @Bean
+    public DirectExchange logsExchange() {
+        return new DirectExchange(DirectExchangeConstants.LOGS_EXCHANGE);
+    }
 
     @Bean
     public Queue infoQueue() {

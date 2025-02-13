@@ -5,7 +5,7 @@ package com.wangguangwu.directexchangeconsumerinfo.constants;
  */
 public final class QueueConstants {
 
-    public static final String INFO_QUEUE = "info.queue";
+    public static final String INFO_QUEUE = "logs.info.queue";
 
     private QueueConstants() {
     }
