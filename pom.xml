@@ -11,11 +11,11 @@
 
     <modules>
         <module>simple-queue</module>
-<!--        <module>work-queue</module>-->
-<!--        <module>fanout-exchange</module>-->
-<!--        <module>direct-exchange</module>-->
-<!--        <module>topic-exchange</module>-->
-<!--        <module>rpc-call</module>-->
+        <module>work-queue</module>
+        <module>fanout-exchange</module>
+        <module>direct-exchange</module>
+        <module>topic-exchange</module>
+        <module>rpc-call</module>
 <!--        <module>confirm-mode</module>-->
 <!--        <module>business</module>-->
     </modules>
@@ -23,6 +23,7 @@
     <properties>
         <java.version>17</java.version>
         <spring.boot.version>3.4.2</spring.boot.version>
+        <lombok.version>1.18.36</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -33,6 +34,12 @@
                 <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

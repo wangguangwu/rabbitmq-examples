@@ -5,12 +5,12 @@
 
     <parent>
         <groupId>com.wangguangwu</groupId>
-        <artifactId>topic-exchange</artifactId>
+        <artifactId>rpc-call</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>topic-exchange-common</artifactId>
-    <name>topic-exchange-common</name>
+    <artifactId>rpc-call-common</artifactId>
+    <name>rpc-call-common</name>
 
     <dependencies>
         <dependency>
@@ -28,4 +28,14 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

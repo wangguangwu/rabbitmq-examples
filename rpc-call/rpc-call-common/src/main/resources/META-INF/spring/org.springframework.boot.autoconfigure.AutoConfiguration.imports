@@ -1,0 +1,3 @@
+com.wangguangwu.rpccallcommon.config.RpcConfig
+com.wangguangwu.rpccallcommon.config.RabbitListenerConfig
+com.wangguangwu.rpccallcommon.config.MessageConverterConfig
