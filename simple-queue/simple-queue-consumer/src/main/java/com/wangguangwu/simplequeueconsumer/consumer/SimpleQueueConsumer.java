@@ -1,6 +1,6 @@
-package com.wangguangwu.consumer.consumer;
+package com.wangguangwu.simplequeueconsumer.consumer;
 
-import com.wangguangwu.consumer.constants.QueueConstants;
+import com.wangguangwu.simplequeuecommon.constants.QueueConstants;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 

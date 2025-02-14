@@ -1,8 +1,8 @@
-package com.wangguangwu.producer.controller;
+package com.wangguangwu.simplequeueproducer.controller;
 
-import com.wangguangwu.producer.constants.QueueConstants;
+import com.wangguangwu.simplequeuecommon.constants.QueueConstants;
+import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,14 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/producer")
-public class SimpleQueueProducer {
+@RequiredArgsConstructor
+public class ApiController {
 
     private final RabbitTemplate rabbitTemplate;
-
-    @Autowired
-    public SimpleQueueProducer(RabbitTemplate rabbitTemplate) {
-        this.rabbitTemplate = rabbitTemplate;
-    }
 
     @PostMapping("/send")
     public String sendMessage(@RequestParam("message") String message) {

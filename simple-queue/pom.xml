@@ -14,6 +14,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>simple-queue-common</module>
 		<module>simple-queue-producer</module>
 		<module>simple-queue-consumer</module>
 	</modules>

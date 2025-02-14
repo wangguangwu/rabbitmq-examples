@@ -1,4 +1,4 @@
-package com.wangguangwu.consumer.constants;
+package com.wangguangwu.simplequeuecommon.constants;
 
 /**
  * @author wangguangwu

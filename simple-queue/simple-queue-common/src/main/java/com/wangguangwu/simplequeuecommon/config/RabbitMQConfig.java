@@ -1,6 +1,6 @@
-package com.wangguangwu.producer.config;
+package com.wangguangwu.simplequeuecommon.config;
 
-import com.wangguangwu.producer.constants.QueueConstants;
+import com.wangguangwu.simplequeuecommon.constants.QueueConstants;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

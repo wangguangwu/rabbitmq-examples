@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8081
 
 spring:
   application:
@@ -10,7 +10,3 @@ spring:
     username: admin
     password: admin
     virtual-host: /
-
-logging:
-  level:
-    root: INFO

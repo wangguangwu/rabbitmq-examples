@@ -1,4 +1,4 @@
-package com.wangguangwu.consumer;
+package com.wangguangwu.simplequeueproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author wangguangwu
  */
 @SpringBootApplication
-public class ConsumerApplication {
+public class SimpleQueueProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(SimpleQueueProducerApplication.class, args);
     }
 
 }
