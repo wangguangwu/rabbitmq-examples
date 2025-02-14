@@ -1,6 +1,6 @@
 package com.wangguangwu.workqueueconsumer.consumer;
 
-import com.wangguangwu.workqueueconsumer.constants.QueueConstants;
+import com.wangguangwu.workqueuecommon.constants.QueueConstants;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
@@ -14,5 +14,4 @@ public class WorkQueueConsumer {
     public void worker1(String message) {
         System.out.println("Received: " + message + " - " + Thread.currentThread().getName());
     }
-
 }
