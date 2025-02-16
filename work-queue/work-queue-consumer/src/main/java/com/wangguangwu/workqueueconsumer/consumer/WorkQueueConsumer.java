@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class WorkQueueConsumer {
 
     @RabbitListener(queues = QueueConstants.WORK_QUEUE)
-    public void worker1(String message) {
+    public void worker(String message) {
         System.out.println("Received: " + message + " - " + Thread.currentThread().getName());
     }
 }

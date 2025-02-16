@@ -14,8 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>fanout-exchange-common</module>
         <module>fanout-exchange-producer</module>
-        <module>fanout-exchange-consumer1</module>
-        <module>fanout-exchange-consumer2</module>
+        <module>fanout-exchange-consumer</module>
     </modules>
 </project>

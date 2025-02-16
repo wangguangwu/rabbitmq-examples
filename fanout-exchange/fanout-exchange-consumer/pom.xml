@@ -10,7 +10,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>fanout-exchange-producer</artifactId>
+    <artifactId>fanout-exchange-consumer</artifactId>
 
     <dependencies>
         <dependency>
